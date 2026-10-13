@@ -1,0 +1,24 @@
+{
+  "name": "react-kindle",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "react-native": "src/index.js",
+  "peerDependencies": {
+    "react": "17.0.2",
+    "react-native": "0.66.2"
+  },
+  "description": "React components and application lifecycle integration for Kindle KPP.",
+  "files": [
+    "src",
+    "bin"
+  ],
+  "keywords": [
+    "kindle",
+    "react",
+    "react-native",
+    "eink"
+  ],
+  "bin": {
+    "react-kindle": "bin/react-kindle.cjs"
+  }
+}

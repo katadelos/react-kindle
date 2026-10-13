@@ -1,0 +1,28 @@
+{
+  "name": "react-kindle",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "create-app": "node packages/react-kindle/bin/react-kindle.cjs create",
+    "build:app": "node packages/react-kindle/bin/react-kindle.cjs build",
+    "deploy:app": "node packages/react-kindle/bin/react-kindle.cjs deploy",
+    "pack:library": "npm pack --workspace react-kindle"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.66.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.29.7",
+    "@babel/runtime": "7.29.10",
+    "metro-react-native-babel-preset": "0.66.2",
+    "hermes-engine": "0.9.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": "16.20.x",
+    "npm": ">=8"
+  }
+}

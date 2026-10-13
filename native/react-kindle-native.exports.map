@@ -1,0 +1,10 @@
+{
+  global:
+    initModule;
+    registerReactNative;
+    onLoadJavascript;
+    onRunJavascript;
+    registerModules;
+  local:
+    *;
+};
