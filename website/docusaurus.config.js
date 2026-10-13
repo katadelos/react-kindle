@@ -3,6 +3,7 @@ module.exports = {
   tagline: 'Build Kindle apps with native controls',
   url: process.env.DOCS_URL || 'http://localhost:3000',
   baseUrl: process.env.DOCS_BASE_URL || '/',
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   markdown: {hooks: {onBrokenMarkdownLinks: 'throw'}},
   presets: [['classic', {

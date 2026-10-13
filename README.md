@@ -45,6 +45,8 @@ separately.
 
 ## Documentation
 
+Read the [documentation site](https://katadelos.github.io/react-kindle/).
+
 - [Getting started](docs/getting-started.md)
 - [Build your first app](docs/first-app.md)
 - [Standalone project](docs/guides/standalone-project.md): install the package in your own app.
